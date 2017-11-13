@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    outline: 1px solid red;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+}
+
+#navegador ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#navegador li {
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#nav-principal {
+    margin: 40px;
+}
+
+#input {
+    text-align: center;
+    margin-top: -5%;
+}
+
+#input input {
+    border-radius: 8px;
+    background-color: #f5f8fa;
+    padding: 7px;
+}
+
+#icono img {
+    width: 32px;
+    position: absolute;
+    margin-left: 58%;
+    margin-top: -35px;
+}
+
+#twittear {
+    float: right;
+}
