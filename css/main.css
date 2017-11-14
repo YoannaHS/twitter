@@ -5,10 +5,12 @@
 }
 
 header {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 100%;
     background: #fff;
     position: fixed;
+    position: fixed;
+    z-index: 1000;
 }
 
 #navegador ul {
@@ -33,7 +35,7 @@ header {
 }
 
 #input input {
-    border-radius: 8px;
+    border-radius: 18px;
     background-color: #f5f8fa;
     padding: 7px;
 }
@@ -47,4 +49,63 @@ header {
 
 #twittear {
     float: right;
+    margin-top: -50px;
+}
+
+#icon i {
+    color: #6f7d86;
+}
+
+#icon:hover i {
+    color: #1da1f2;
+}
+
+#twittear button {
+    border-radius: 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.imagen-fondo img {
+    width: 100%;
+}
+
+.general-1 {
+    position: absolute;
+    top: 20%;
+    background-color: #fff;
+    width: 20%;
+    padding: 20px;
+}
+
+.general-1 img {
+    width: 90px;
+    height: 90px;
+    border-radius: 150px;
+    border: 2px solid #ff00bf;
+}
+
+.general-2 {
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 25%;
+    bottom: 59%;
+    padding: 20px;
+    text-align: center
+}
+
+.general-2 img {
+    width: 90px;
+    height: 90px;
+    border-radius: 150px;
+    border: 2px solid #ff00bf;
+    float: left;
+}
+
+.general-2 #twit {
+    
 }
