@@ -11,6 +11,7 @@ header {
     position: fixed;
     position: fixed;
     z-index: 1000;
+    padding-bottom: 10px;
 }
 
 #navegador ul {
@@ -79,11 +80,18 @@ header {
     background-color: #fff;
     width: 20%;
     padding: 20px;
+    margin-left: 4%;
+}
+
+.general-1 p {
+    margin-left: 35%;
+    text-align: center;
+    margin-top: -20%;
 }
 
 .general-1 img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 150px;
     border: 2px solid #ff00bf;
 }
@@ -92,20 +100,73 @@ header {
     width: 45%;
     background-color: #fff;
     position: absolute;
-    margin-left: 25%;
-    bottom: 59%;
+    margin-left: 27%;
     padding: 20px;
-    text-align: center
+    text-align: center;
+    top: 20%;
 }
 
-.general-2 img {
-    width: 90px;
-    height: 90px;
+.general-2 #photo {
+    width: 70px;
+    height: 70px;
     border-radius: 150px;
     border: 2px solid #ff00bf;
     float: left;
 }
 
-.general-2 #twit {
-    
+.general-2 #insertTwt {
+    border-radius: 9px;
+    border: 1px solid #1da1f2;
+    width: 85%;
+}
+
+#insertTwt::-webkit-input-placeholder {
+    color: #1da1f2;
+    text-align: center;
+}
+
+.general-2 #add {
+    border-radius: 9px;
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 7px;
+    font-weight: 700;
+    margin-left: 73%;
+    cursor: pointer;
+}
+
+.uno {
+    border: 1px solid #6f7d86;
+    width: 100%;
+    background-color: white;
+} 
+
+.general-2 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#twit::-webkit-input-placeholder {
+    color: #1da1f2;
+}
+
+.general-3 {
+    position: absolute;
+    background-color: #fff;
+    width: 20%;
+    padding: 20px;
+    margin-left: 75%;
+    top: 20%;
+}
+
+.general-3 h1 {
+    font-size: 25px;
+}
+
+.general-3 button {
+    color: #1da1f2;
+    padding: 5px;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
 }
