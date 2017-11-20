@@ -18,3 +18,10 @@
 	tweetArea.value = '' --> Lo declaramos vacío.
 9. Para que el contador regrese al inicio.
 	countDinamic.textContent = 140;
+10. Para hacer la versión del cambio de colores usamos toggle con dos parámetros:
+	llamas a la clase de tu CSS-->countDinamic.classList.toggle('seagreen,
+	valores buleanos 10<=total && total<20
+	valores buleanos total<10
+11. El valor 'initial' me devuelve el valor  inicial de mi CSS -->tweetArea.style = 'initial'
+12. En tu estructura de carpetas crear el file VENDORS/moment.js --> aquí descargas los recursos para dar formato de hora.
+	En HTML mediante una etiqueta script relacionas tu carpeta moment.js y en JS generas una variable con las funciones.
