@@ -125,29 +125,26 @@ header {
     text-align: center;
 }
 
-.general-2 #add {
+.general-2 #agregar {
+    border: 1px solid #0b7bc1;
     border-radius: 9px;
     background-color: #1da1f2;
     color: #fff;
     padding: 7px;
     font-weight: 700;
     margin-left: 73%;
-    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
 }
 
-.uno {
-    border: 1px solid #6f7d86;
-    width: 100%;
-    background-color: white;
-} 
+#agregar:disabled {
+    border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+}
 
 .general-2 img {
     width: 100%;
     cursor: pointer;
-}
-
-#twit::-webkit-input-placeholder {
-    color: #1da1f2;
 }
 
 .general-3 {
@@ -169,4 +166,27 @@ header {
     background-color: white;
     border-style: none;
     cursor: pointer;
+}
+/* Marcando nuevos estilos */
+.slateblue {
+    color: slateblue;
+}
+
+.olivedrab {
+    color: olivedrab;
+}
+
+.new-tweet {
+    outline: 1px solid #1da1f2;
+    background-color: #fff;
+	border-radius: 15px;
+    margin: 1.5% auto;
+    padding: 1%;
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
