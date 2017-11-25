@@ -1,0 +1,27 @@
+*Solucionario - Twitter:
+1. Cómo hacer un textárea funcional.
+	Generas una variable y seleccionas mediante un getID el ID del texarea, luego al textarea le asignas el evento
+	'keyup' = (teclear) puedes hacer una function event con event.target que te permite saber donde se ejecuta el
+	el evento. ingresas console.log(event.target.value.trim) = esto me permite identificar el valor del texto y 
+	no me considera el vacío. Luego haces el console.log(event.target.value.trim().lenth) = para saber la longitud.
+2. Como deshabilitar un boton.
+	Con disabbed
+3. Realizar una variable en MAYÚSCULA significa que es una variable constante, no va a variar.
+4. Para evitar el efecto por default del formulario colocamos.
+	event.preventDefault()
+5. Crear estilo a la caja contenedora
+	div.classlist.add ('nuevo-mensaje')
+6. No dejes código muerto, perjudica tu código.
+7. Usamos un insertBefore para que el último twitt salga primero en la web:
+	messages.insertBefore(div,messages.firstElementChild);
+8. Para limpiar el texto en textarea usamos.
+	tweetArea.value = '' --> Lo declaramos vacío.
+9. Para que el contador regrese al inicio.
+	countDinamic.textContent = 140;
+10. Para hacer la versión del cambio de colores usamos toggle con dos parámetros:
+	llamas a la clase de tu CSS-->countDinamic.classList.toggle('seagreen,
+	valores buleanos 10<=total && total<20
+	valores buleanos total<10
+11. El valor 'initial' me devuelve el valor  inicial de mi CSS -->tweetArea.style = 'initial'
+12. En tu estructura de carpetas crear el file VENDORS/moment.js --> aquí descargas los recursos para dar formato de hora.
+	En HTML mediante una etiqueta script relacionas tu carpeta moment.js y en JS generas una variable con las funciones.
