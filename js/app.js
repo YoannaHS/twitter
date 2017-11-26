@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
     if (event.target.value.trim().length) {
       var total = MAXCHARACTERS - event.target.value.trim().length;
       twitbtn.disabled = false;
-      container.textContent = MAXCHARACTERS - event.target.value.trim().length;
+      countDinamic.textContent = MAXCHARACTERS - event.target.value.trim().length;
       console.log(event.target.value.trim());
       if (event.target.value.trim().length > MAXCHARACTERS) {
         twitbtn.disabled = true;
